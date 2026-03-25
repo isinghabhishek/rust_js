@@ -1,4 +1,4 @@
-pub mod memory() {
+pub mod memory {
     pub fn my_fn() {
         let fname: String = String::from("Abhishek");
 
@@ -8,6 +8,6 @@ pub mod memory() {
     }
 
     pub fn print_name(name: &str) {
-        println!("Nmae is {}", name);
+        println!("Name is {}", name);
     }
 }
