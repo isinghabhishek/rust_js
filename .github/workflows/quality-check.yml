@@ -1,0 +1,11 @@
+name: Code Quality Check
+
+on:
+  push:
+    branches: [ master, main ]
+  pull_request:
+    branches: [ master, main ]
+
+jobs:
+  quality:
+    uses: isinghabhishek/.github/.github/workflows/code-quality.yml@main
