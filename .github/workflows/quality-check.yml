@@ -8,4 +8,4 @@ on:
 
 jobs:
   quality:
-    uses: isinghabhishek/.github/.github/workflows/code-quality.yml@main
+    uses: isinghabhishek/.github/workflows/code-quality.yml@main
