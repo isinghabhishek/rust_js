@@ -1,5 +1,3 @@
-name: Code Quality Check
-
 on:
   push:
     branches: [ master, main ]
@@ -8,4 +6,4 @@ on:
 
 jobs:
   quality:
-    uses: isinghabhishek/.github/files/workflows/code-quality.yml@main
+    uses: ./.github/workflows/code-quality.yml
