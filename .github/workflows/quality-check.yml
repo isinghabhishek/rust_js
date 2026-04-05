@@ -2,11 +2,15 @@ name: Code Quality Check
 
 on:
   push:
-    branches: [ main, develop, master ]
+    branches: [main, develop, master]
   pull_request:
-    branches: [ main, develop, master ]
+    branches: [main, develop, master]
 
 jobs:
   # This 'quality' job calls your remote workflow
   quality:
-    uses: ./.github/workflows/code-quality.yml
+    uses: isinghabhishek/.github/.github/workflows/code-quality.yml@main
+    with:
+      run-clippy: true
+      run-fmt: true
+      run-test: false
