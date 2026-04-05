@@ -9,4 +9,4 @@ on:
 jobs:
   # This 'quality' job calls your remote workflow
   quality:
-    uses: isinghabhishek/.github/.github/workflows/code-quality.yml@main
+    uses: ./.github/workflows/code-quality.yml
