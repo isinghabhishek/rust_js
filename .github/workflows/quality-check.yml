@@ -9,7 +9,7 @@ on:
 jobs:
   # This 'quality' job calls your remote workflow
   quality:
-    uses: isinghabhishek/.github/.github/workflows/code-quality.yml@main
+    uses: isinghabhishek/.github/workflows/code-quality.yml@main
     with:
       run-clippy: true
       run-fmt: true
